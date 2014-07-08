@@ -10,6 +10,10 @@ a{
 	text-decoration: none;
 	color: inherit;
 }
+/* webkit, opera, IE9 */
+::selection { background:#A470AA; color: #FFFFFF; }
+/* mozilla firefox */
+::-moz-selection { background:#A470AA; color: #FFFFFF;}
 #idx-head{
 	color: #FFFFFF;
 	/*background-color: #1E79D8;*/
