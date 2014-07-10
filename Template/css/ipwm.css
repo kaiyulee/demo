@@ -69,20 +69,21 @@ a{
 #article-list{
 	border-right: 1px solid #ccc;
 	/*margin: 10px;*/
-	padding: 10px 10px 0 10px;
+	padding: 0px 10px 0 10px;
 	/*box-shadow: 2px 0px 2px #CCCCCC;*/
 }
 .article{
 	width: 600px;
 	min-height: 60px;
 	border: 1px solid #ccc;
-	padding: 10px 10px 10px 50px;
+	padding: 10px 10px 10px 35px;
 	margin-bottom: 10px;
 	position: relative;
 }
 .article-title {
  	font-weight: bold;
 	padding: 2px;
+	margin-bottom: 10px;
 }
 .time-mark{
 	color: #FFFFFF;
@@ -113,8 +114,11 @@ a{
 	text-decoration: none;
 	color: #5DA2A9;
 }
-.article-intro{
+.article-intro {
 	color: #000000;
+	font-size: 14px;
+	line-height: 18px;
+	text-indent: 2em;
 }
 #page-bar{
 	border: 1px solid #ccc;
@@ -140,9 +144,17 @@ a{
 }
 /*#idx-main-right*/
 #idx-main-right{
-	width: 310px;
+	width: 324px;
+	padding: 10px;
 	float: right;
 	border: 1px solid #ccc;
+}
+.sec-title{
+	padding-bottom: 10px;
+	text-shadow: 5px 5px 5px #5DA2A9;
+}
+.subsection{
+	padding: 0 0 10px 10px;
 }
 #idx-foot{
 	clear: both;
