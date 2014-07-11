@@ -86,10 +86,12 @@ a{
 	margin-bottom: 10px;
 }
 .time-mark{
-	color: #FFFFFF;
-	background-color: #979DA6;
+	/*font-family: Georgia;*/
+	color: #DB6968;
+	background-color: #363940;/*#979DA6;*/
 	width: 36px;
 	height: 36px;
+	border-top-left-radius: 5px;
 	padding: 2px;
 	font-size: 12px;
 	position: absolute;
