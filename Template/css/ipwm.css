@@ -66,13 +66,13 @@ a{
 	float: left;
 	/*border: 1px solid #ccc;*/
 }
-#article-list{
+#article-list,#article-info{
 	border-right: 1px solid #ccc;
 	/*margin: 10px;*/
 	padding: 0px 10px 0 10px;
 	/*box-shadow: 2px 0px 2px #CCCCCC;*/
 }
-.article{
+.article,#article-part{
 	width: 600px;
 	min-height: 60px;
 	border: 1px solid #ccc;
@@ -158,9 +158,51 @@ a{
 .subsection{
 	padding: 0 0 10px 10px;
 }
+.subsection ul li,.subsection dl dd{
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	padding: 0  0 5px 0;
+}
+.subsection dt{
+	color: #FFFFFF;
+	background: #363940;
+	padding: 5px 0 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.com-list{
+
+}
 #idx-foot{
 	clear: both;
 	height: 300px;
 	text-align: center;
 	padding: 10px;
 }
+
+/*文章详情  开始*/
+#article-part{
+	width: 625px;
+	min-height: 60px;
+	border: 1px solid #ccc;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	position: relative;
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+h3#article-title {
+	border-bottom: 1px solid #cccccc;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+#article-content {
+	font-size: 14px;
+	line-height: 18px;
+	text-indent: 2em;
+}
+/*文章详情 结束*/
